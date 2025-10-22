@@ -1,0 +1,35 @@
+# Logs
+*.log
+server.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+.cache/
+
+# Node modules (if using npm in future)
+node_modules/
+
+# Environment files
+.env
+.env.local
+
+# Build artifacts
+dist/
+build/
+
+# Browser screenshots (development)
+.browser_screenshots/
+
+# Downloads
+.downloads/
