@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Introduction to 3D Printing: Technologies and Materials",
+    "date": "2025-10-15",
+    "excerpt": "Overview of modern 3D printing technologies and popular materials for various applications",
+    "filename": "3d-printing-intro.md"
+  },
+  {
+    "title": "Prototyping: From Idea to Product",
+    "date": "2025-10-10",
+    "excerpt": "How 3D printing accelerates product development and reduces costs",
+    "filename": "prototyping-guide.md"
+  },
+  {
+    "title": "Restoration and Part Recovery",
+    "date": "2025-10-05",
+    "excerpt": "How 3D scanning and printing help restore lost or damaged parts",
+    "filename": "restoration-techniques.md"
+  }
+]

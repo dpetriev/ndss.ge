@@ -1,0 +1,44 @@
+[
+  {
+    "id": "3d-printing",
+    "title": "3D Printing",
+    "icon": "fa-solid fa-print",
+    "excerpt": "Professional additive manufacturing with FDM, SLA, and SLS technologies",
+    "filename": "3d-printing.md"
+  },
+  {
+    "id": "3d-modeling",
+    "title": "3D Modeling",
+    "icon": "fa-solid fa-cube",
+    "excerpt": "CAD design, reverse engineering, and technical documentation services",
+    "filename": "3d-modeling.md"
+  },
+  {
+    "id": "3d-scanning",
+    "title": "3D Scanning",
+    "icon": "fa-solid fa-camera",
+    "excerpt": "High-precision digital capture for reverse engineering and quality control",
+    "filename": "3d-scanning.md"
+  },
+  {
+    "id": "prototyping",
+    "title": "Prototyping",
+    "icon": "fa-solid fa-wrench",
+    "excerpt": "Rapid prototyping from concept to physical product validation",
+    "filename": "prototyping.md"
+  },
+  {
+    "id": "small-batch",
+    "title": "Small Batch Production",
+    "icon": "fa-solid fa-industry",
+    "excerpt": "Cost-effective manufacturing for 10-1000 units without expensive tooling",
+    "filename": "small-batch.md"
+  },
+  {
+    "id": "custom-solutions",
+    "title": "Custom Solutions",
+    "icon": "fa-solid fa-gears",
+    "excerpt": "Furniture fittings, PC cases, plastic restoration, and gearbox repairs",
+    "filename": "custom-solutions.md"
+  }
+]
