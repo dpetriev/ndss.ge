@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prototyping & Small Batch Production Studio</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Force CSS to apply - override any caching issues */
+        .section { display: none !important; }
+        .section.active { display: block !important; }
+        .nav-logo .logo-image { height: 40px !important; width: auto !important; }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <ul class="nav-menu">
+                <li><a href="#blog" class="nav-link active" data-section="blog">Blog</a></li>
+                <li><a href="#services" class="nav-link" data-section="services">What We Do</a></li>
+                <li><a href="#contacts" class="nav-link" data-section="contacts">Contacts</a></li>
+            </ul>
+            <div class="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Blog Section -->
+    <section id="blog" class="section blog-section active">
+        <div class="container">
+            <h1 class="section-title">Studio Blog</h1>
+            <p class="services-intro">Articles about 3D printing, prototyping, and manufacturing. Click any article to read more.</p>
+            <div id="blog-list" class="blog-list"></div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section services-section">
+        <div class="container">
+            <h1 class="section-title">What We Do</h1>
+            <p class="services-intro">Professional 3D printing and prototyping services in Tbilisi. Click any service to learn more.</p>
+            
+            <div id="services-grid" class="services-grid">
+                <!-- Services will be loaded dynamically -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacts Section -->
+    <section id="contacts" class="section contacts-section">
+        <div class="container">
+            <h1 class="section-title">Contacts</h1>
+            <div class="contacts-content">
+                <div class="contacts-info">
+                    <h3>Get in Touch</h3>
+                    <div class="contact-item">
+                        <strong>Email:</strong>
+                        <a href="mailto:studio@3dprint.ge">studio@3dprint.ge</a>
+                    </div>
+                    <div class="contact-item">
+                        <strong>Telegram:</strong>
+                        <a href="https://t.me/3dstudio_tbilisi" target="_blank">@3dstudio_tbilisi</a>
+                    </div>
+                    <div class="contact-item">
+                        <strong>Phone:</strong>
+                        <a href="tel:+995555123456">+995 555 123 456</a>
+                    </div>
+                    <div class="contact-item">
+                        <strong>Address:</strong>
+                        <span>Tbilisi, Georgia</span>
+                    </div>
+                </div>
+                <div class="map-container">
+                    <div id="map" class="map"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal Container -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 id="modal-title" class="modal-title"></h2>
+                <button id="modal-close" class="modal-close" aria-label="Close">&times;</button>
+            </div>
+            <div id="modal-body" class="modal-body"></div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

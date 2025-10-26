@@ -1,0 +1,51 @@
+# Logs
+*.log
+server.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+.cache/
+
+# Node modules (if using npm in future)
+node_modules/
+
+# Environment files
+.env
+.env.local
+
+# Build artifacts
+dist/
+build/
+
+# Browser screenshots (development)
+.browser_screenshots/
+
+# Downloads
+.downloads/
+
+# AWS Amplify
+amplify/
+.amplifyrc
+amplify-backup/
+#amplify-do-not-edit-begin
+amplify/**/*-parameters.json
+amplify/**/amplify.state
+amplify/**/transform.conf.json
+amplify/**/backend-config.json
+build/
+dist/
+node_modules/
+aws-exports.js
+awsconfiguration.json
+#amplify-do-not-edit-end
